@@ -1,0 +1,25 @@
+<div class="toolbar" role="banner">
+  <div style="font-size:25px;">City FM </div>
+
+  </div>
+
+
+<div class="content" role="main">
+  <table id="Products">
+    <tr>
+      <th style="width: 100px;">Product Id</th>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Unit Price</th>
+      <!-- <td>Maximum Quantity</td> -->
+    </tr>
+    <tr *ngFor="let P of ProductsList">
+        <td>{{P.productId}}</td>
+        <td>{{P.name}}</td>
+        <td>{{P.description}}</td>
+        <td>{{P.unitPrice|number}}</td>
+        <!-- <td>{{P.maximumQuantity}}</td> -->
+    </tr>
+</table>
+
+</div>

@@ -1,0 +1,9 @@
+
+{
+  "/api/*": {
+    "target": "http://alltheclouds.com.au",
+    "secure": false,
+    "changeOrigin": true,
+     "logLevel": "info"
+  }
+}
